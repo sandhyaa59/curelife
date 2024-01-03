@@ -1,0 +1,84 @@
+/* navbar.css */
+
+.top
+{
+    /* background-color: whitesmoke; */
+    
+    height:2vh;
+    width: 100%;
+    background-size:contain;
+    background-position: center;
+    position:absolute;
+    text-align: center;
+
+}
+.nav
+{
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-top:30px;
+    cursor: pointer;
+    position:sticky;
+    
+}
+.nav h2
+{
+    color:black;
+    display: inline-block;
+    font-size: 25px;
+    margin-left:50px;
+    float: left;
+    
+}
+.nav span
+{
+    color:red;
+}
+
+.nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 20px;
+    text-align: center;
+    float:inline;
+    
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color:black;
+    margin:20px;
+    font-weight: bold;
+}
+.nav ul li a:hover
+{
+    color:red;
+    border-bottom:1px solid white;
+}
+.nav button
+{
+    border:none;
+    border-radius: 20px;
+    background-color: rgb(158, 148, 141);
+    color:white;
+    padding:8px;
+    margin-right:10px;
+    float:right;
+    
+}
+.nav button a
+{
+    text-decoration: none;
+    color:white;
+}
+.nav button a:hover{
+    color:red;
+}
+.nav button:hover
+{
+    background-color: rgb(136, 131, 127);
+    text-decoration: none;
+    
+}

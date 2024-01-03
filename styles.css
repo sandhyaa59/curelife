@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  background-color: #f0f0f0;
+}
+
+.search-container {
+  display: flex;
+  position: relative;
+}
+
+#search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+#search-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.log{
+  padding: 12px 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.login {
+  text-align: left;
+  position: relative;
+  float: right;
+}
+.signup {
+  text-align: left;
+  position: relative;
+  float:right
+  
+}
+
+.loginbtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ccc;
+  color:black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+.signupbtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ccc;
+  color:black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ 
+}
+.cart {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* background-color: #ccc; */
+  color:black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.loginbtn:hover {
+  background-color: #2980b9;
+}
+.signupbtn:hover {
+  background-color: #2980b9;
+}
+.cart:hover {
+  background-color: #2980b9;
+}
