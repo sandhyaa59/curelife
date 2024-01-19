@@ -1,0 +1,59 @@
+
+    body{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+
+    }
+    body{
+        background: #fcfcfc;
+    }
+    .f1{
+        position:absolute;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color:whitesmoke;
+        height:100px;
+        font-family: Poppins;
+        color:aliceblue;
+       
+
+    }
+    .first{
+        text-align: center; 
+        margin:30px;     
+    }
+
+     .icon li{
+         display:flex;
+         align-items: center;
+        justify-content: center;
+        text-align: center; 
+        color:black;
+        display:inline-block;
+        padding:0px 20px;
+        
+     }
+     .icon li a:hover{
+        color:red;
+     }
+    
+     .icon li a{
+        color:black;
+        text-shadow: 4px 2px 8px skyblue;
+       font-size: 25;
+
+    }
+.f1 h3,p{
+    text-align: center;
+    
+}
+
+.f1 h3{
+    font-size: 20px;
+    text-shadow:4px 4px 8px blue;
+    padding:20px;
+}
+
+

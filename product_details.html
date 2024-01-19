@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product_deatils_css.css">
+    <title>Product Details</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="product-image">
+      <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/5171/5bafaead-3d2e-40c0-97d2-4f5edc2e350a.jpg" alt="Product Image">
+    </div>
+    
+    <div class="product-details">
+      <h1>Product Name</h1>
+      <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Price: Rs199.99</p>
+      
+      <div class="quantity">
+        <label for="quantity">Quantity:</label>
+        <button id="decrease" onclick="changeQuantity(-1)">-</button>
+        <input type="number" id="quantity" value="1" min="1">
+        <button id="increase" onclick="changeQuantity(1)">+</button>
+      </div>
+      
+      <button id="addToCart" onclick="addToCart()">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="product_details_js.js"></script>
+</body>
+</html>
